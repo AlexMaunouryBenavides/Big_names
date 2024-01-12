@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Header from './Composents/Header';
 import { data } from './Data/data.js';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Link, useParams } from 'react-router-dom';
 import transition from './transition.jsx';
 

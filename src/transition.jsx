@@ -13,10 +13,10 @@ const transition = (OGComponent) => {
 				transition={{ duration: 0.3 }}
 			/>
 			<motion.div
-				className="fixed top-0 left-0 w-full h-screen origin-top bg-[#F1F2F6] "
+				className="fixed top-0 left-0 w-full h-full origin-top bg-[#F1F2F6] "
 				initial={{ scaleY: 1 }}
 				animate={{ scaleY: 0 }}
-				exit={{ scaleY: 0 }}
+				exit={{ scaleY: 1 }}
 				transition={{ duration: 0.3 }}
 			/>
 		</>
