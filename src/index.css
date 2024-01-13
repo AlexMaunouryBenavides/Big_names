@@ -7,3 +7,6 @@
 	background-size: cover;
 	height: 100vh;
 }
+.bg-list {
+	background-image: url('../public/bg_monde.png');
+}

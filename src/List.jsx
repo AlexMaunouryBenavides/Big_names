@@ -44,7 +44,7 @@ const List = () => {
 
 	return (
 		<>
-			<div className="flex flex-col  bg-[url('./img/bg_monde.png')] h-[100vh] bg-no-repeat bg-[center_top_10vh] bg-cover  ">
+			<div className="flex flex-col bg-list  h-[100vh] bg-no-repeat bg-[center_top_10vh] bg-cover  ">
 				<Header />
 				<div className="md:flex   flex-row-reverse justify-between  md:w-[1700px] md:m-auto">
 					<div className=" px-3 py-5 md:w-[30%] md:h-[50vh] md:border-l-[1px] border-l-black ">
