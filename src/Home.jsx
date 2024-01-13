@@ -15,7 +15,7 @@ const Home = () => {
 		},
 	};
 	return (
-		<div className="bg-[url('./img/bg_home.svg')] bg-center bg-cover bg-no-repeat h-screen ">
+		<div className="bg-home ">
 			<div className="px-[80px]">
 				<Header />
 				<div className="w-[700px] mt-[190px]">
