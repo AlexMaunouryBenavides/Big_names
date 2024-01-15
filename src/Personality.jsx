@@ -23,7 +23,7 @@ const Personality = () => {
 			<Header />
 			{fichePersonality.map((element, id) => (
 				<div key={id}>
-					<div className="flex align-middle justify-center">
+					<div className="flex align-middle justify-center ">
 						<Link to={'/list'}>
 							<img className="cursor-pointer" src={retour} alt="retour" />
 						</Link>
@@ -38,12 +38,12 @@ const Personality = () => {
 						</motion.h3>
 					</div>
 
-					<div className="flex items-center justify-between px-[30px] leading-[1.9rem]">
+					<div className="flex flex-col-reverse items-center justify-between md:px-[30px] leading-[1.9rem] md:flex-row ">
 						<motion.p
 							initial={{ opacity: 0, x: '-100vw' }}
 							animate={{ opacity: 1, x: 0 }}
 							transition={{ delay: 0.5, duration: 2, type: 'spring' }}
-							className="font-['Plus_Jakarta_Sans'] font-light text-[18px] max-w-[700px] pl-[50px]">
+							className="font-['Plus_Jakarta_Sans'] font-light text-[18px] max-w-[700px] px-[10px] md:pl-[20px]">
 							{element.description}
 						</motion.p>
 						<motion.img
@@ -51,7 +51,7 @@ const Personality = () => {
 							initial="hidden"
 							animate="visible"
 							transition={{ delay: 0.3, duration: 3, type: 'spring' }}
-							className="h-[650px] w-[1100px] object-contain "
+							className="md:h-[650px] md:w-[1100px]  object-cover w-auto "
 							src={element.images}
 							alt="carte territoire associé"
 							loading="lazy"

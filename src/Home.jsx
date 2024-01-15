@@ -16,15 +16,15 @@ const Home = () => {
 	};
 	return (
 		<div className="bg-home ">
-			<div className="px-[80px]">
+			<div className="md:px-[80px]">
 				<Header />
-				<div className="w-[700px] mt-[190px]">
+				<div className="w-[700px]  max-w-[100vw] text-center mt-5 md:text-left md:mt-[190px] ">
 					<motion.h2
 						variants={variantContainer}
 						initial="hidden"
 						animate="visible"
 						transition={{ delay: 0.2, duration: 0.5 }}
-						className="font-['Cinzel_Decorative'] text-[#FB4B4E] text-[48px]">
+						className="font-['Cinzel_Decorative'] text-[#FB4B4E] text-[24px] md:text-[48px]  ">
 						HISTOIRE DES GRANDS NOM DE CE MONDE
 					</motion.h2>
 					<motion.p
@@ -32,7 +32,7 @@ const Home = () => {
 						initial="hidden"
 						animate="visible"
 						transition={{ delay: 0.5, duration: 0.7 }}
-						className="font-['Plu_Jakart_Sans'] text-[#F1F2F6] text-[24px] mt-[40px]">
+						className="font-['Plu_Jakart_Sans'] text-[#F1F2F6] md:text-[24px] mt-[40px]">
 						Ceux qui l'ont parcourue et conquît, fait évoluer pour le bien de tous, ou au contraire marqué
 						d'ancre et de sang.
 					</motion.p>

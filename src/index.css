@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .bg-home {
-	background-image: url('../public/bg_home.svg');
+	background-image: url('../bg_home.svg');
 	background-size: cover;
 	height: 100vh;
 }
 .bg-list {
-	background-image: url('../public/bg_monde.png');
+	background-image: url('../bg_monde.png');
 }

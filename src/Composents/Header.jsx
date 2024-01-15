@@ -18,9 +18,7 @@ function Header() {
 			<div className="font-['Cinzel_Decorative'] text-[#FB4B4E] text-[32px] md:text-[80px]">
 				<h1>BIG NAMES</h1>
 			</div>
-			<div>
-				<img src={Menu} alt="" />
-			</div>
+			<div>{/* <img src={Menu} alt="" /> */}</div>
 		</motion.div>
 	);
 }
