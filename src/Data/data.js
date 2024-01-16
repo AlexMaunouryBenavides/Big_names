@@ -15,6 +15,7 @@ import bg_bolivar from '../Img/bg_bolivar.png'
 import bg_charles_quint from '../Img/bg_charles_quint.png'
 import bg_m_o_ghasavi from '../Img/bg_mahmud_of_ghazavi.png'
 import bg_thutmose from '../Img/bg_thutmose.png'
+import bg_auguste from '../Img/bg_august_cesar.png'
 export const data = [
   {
     "id": 1,
@@ -135,12 +136,12 @@ export const data = [
     "continents": "Afrique",
     "images": bg_thutmose
   },
-  /* {
+  {
     "id": 18,
-    "nom": "",
-    "description": "",
-    "continents": "",
-    "images": ""
+    "nom": "Auguste César",
+    "description": "Auguste, né le 23 septembre 63 av. J.-C. à Rome sous le nom de Caius Octavius , puis adopté par Jules César en 45 av. J.-C. sous le nom de Caius Iulius Caesar Octavianus, titré Augustus par le Sénat romain en 27 av. J.-C. et appelé ensuite officiellement Imperator Caesar Divi Filius Augustus , est le premier empereur romain, du 16 janvier 27 av. J.-C. jusqu'à sa mort le 19 août 14 apr. J.-C., à Nola près de Naples. Il devient à 19 ans, en 44 av. J.-C., le fils adoptif de son grand-oncle Jules César, peu après l'assassinat de ce dernier. Avec le règne d'Auguste débute pour Rome une période de stabilité, traditionnellement connue sous le nom de Pax Romana, après un siècle de déchirements politiques et de guerres civiles. Le monde romain n'est alors plus menacé par de grandes guerres d'invasion ou par des confrontations avec des rivaux équivalents pendant près de deux siècles. Pour l'essentiel, les guerres deviennent défensives, ponctuellement de conquête. La superficie de l'Empire augmente de façon importante avec les annexions de l'Égypte, de la Dalmatie, de la Pannonie, du Norique et de la Rhétie et les dernières conquêtes en Afrique, en Germanie et en Hispanie. Auguste stabilise les régions frontalières grâce à des états tampons et parvient à conclure une paix avec l'Empire parthe. Auguste réforme le système de taxation, développe les voies de communication en leur adjoignant un réseau officiel de relais de poste, et établit une armée permanente postée dans des provinces données, et ancrée sur une frontière pérenne, le limes. Il fonde la garde prétorienne, destinée à le protéger dans Rome, ainsi que toute une gamme de corps spéciaux destinés à la gestion de la ville de Rome, tels que les services de polices et de pompiers. ",
+    "continents": "Europe",
+    "images": bg_auguste
   },
   {
     "id": 19,
@@ -155,7 +156,7 @@ export const data = [
     "description": "",
     "continents": "",
     "images": ""
-  }, */
+  },
   
 ];
 

@@ -25,7 +25,13 @@ const Personality = () => {
 				<div key={id}>
 					<div className="flex align-middle justify-center ">
 						<Link to={'/list'}>
-							<img className="cursor-pointer" src={retour} alt="retour" />
+							<motion.img
+								initial={{ opacity: 0, x: '-100vw' }}
+								animate={{ opacity: 1, x: 0 }}
+								className="cursor-pointer"
+								src={retour}
+								alt="retour"
+							/>
 						</Link>
 
 						<motion.h3
